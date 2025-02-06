@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@clerk/themes": "^2.2.16",
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}

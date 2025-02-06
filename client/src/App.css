@@ -1,0 +1,117 @@
+/* General page styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+/* App container styles */
+.app-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #3498db;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 60px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #e0e0e0;
+}
+
+/* Clerk user button */
+.clerk-user-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.clerk-user-button:hover {
+  color: #e0e0e0;
+}
+
+/* Centering the sign-in container */
+.sign-in-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-container button {
+  margin: 10px;
+}
+
+/* Table container for better spacing */
+.table-container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 900px; /* Ensures the table doesn't stretch too far */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-x: auto; /* Adds scroll for overflow */
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #3498db;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.delete-btn:hover {
+  background-color: #c0392b;
+}
